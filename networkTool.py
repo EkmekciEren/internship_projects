@@ -18,7 +18,7 @@ def paket_isle(paket):
         
         dosya.write("=" * 25 + "\n")
 
-def ana():
+def main():
     sniff(prn=paket_isle, count=kacTane)
 
-ana()
+main()
